@@ -211,7 +211,7 @@ body{
 }
 
 .contacts-form button{
-    bottom: none;
+    border-bottom: none;
     text-transform: uppercase;
     color: #490e84;
     background-color: #fff;
@@ -290,6 +290,7 @@ body{
 }
 
 @media (max-width: 940px){
+
 .nav button{
         display: inline-block;
         width: 50px;
@@ -458,17 +459,11 @@ body{
 
 @media (max-width: 420px){
     .header{
-        padding: 25px;
+        padding: 10px;
     }
 
     .nav{
         flex-wrap: wrap;
-    }
-
-    .header .phone{
-        flex-basis: auto;
-        order: 3;
-        width: 100%;
     }
 
     .menu-item{
@@ -477,6 +472,10 @@ body{
 
     .new-text{
         margin: 30px 30px;
+    }
+
+    .nav .phone {
+        display: none;
     }
 }
 

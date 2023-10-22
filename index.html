@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
-    <link rel="manifest" href="/images/favicon/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/assets/images/favicon/site.webmanifest">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Iphone 14 Pro</title>
 </head>
 <body>
@@ -25,19 +25,19 @@
                     <span class="btn-line"></span>
                     <span class="btn-line"></span>
                 </button>
-                <ul class="menu">
+                <ul class="menu" id="menu-list">
                     <li class="menu-item">
-                        <a href="#" class="menu-link">Что нового</a>
+                        <a href="#" class="menu-link" data-scroll="#new">Что нового</a>
                     </li>
                     <li class="menu-item">
-                        <a href="#" class="menu-link">Цвет</a>
+                        <a href="#" class="menu-link" data-scroll="#color">Цвет</a>
                     </li>
                     <li class="menu-item">
-                        <a href="#" class="menu-link">Заказать</a>
+                        <a href="#" class="menu-link" data-scroll="#order">Заказать</a>
                     </li>
                 </ul>
                 <a class="logo">
-                    <img src="images/logo.svg" alt="logo" class="logo-img">
+                    <img src="assets/images/logo.svg" alt="logo" class="logo-img">
                 </a>
                 <a href="tel:+78121231212" class="phone">+7 (812) 123-12-12</a>
             </nav>
@@ -47,13 +47,13 @@
         <section class="headline">
             <div class="conteiner">
                 <h1 class="title">IPHONE 14 PRO</h1>
-                <img src="images/iphone.png" alt="IPHONE 14 PRO" class="headline-img">
+                <img src="assets/images/iphone.png" alt="IPHONE 14 PRO" class="headline-img">
             </div>
-            <a href="#" class="headline-btn">ВЫБРАТЬ</a>
+            <a href="#" class="headline-btn" data-scroll="#color">ВЫБРАТЬ</a>
         </section>
-        <section class="new">
+        <section class="new" id="new">
             <div class="container">
-                <h2 class="new-title">ЧТО НОВОГО</h2>
+                <h2 class="new-title" >ЧТО НОВОГО</h2>
                 <div class="new-info">
                     <div class="new-text">
                         <p>
@@ -69,40 +69,40 @@
                             iPhone 14 Pro вышел в новом дизайне — без фирменной «челки». Также в ассортименте появился новый цвет. В смартфоне, в отличие от «обычных» 14-х айфонов, установлен процессор A16 Bionic, который может за секунду производить 4 трлн операций с фото.
                         </b>
                     </div>
-                    <img src="images/iphone-news.jpg" alt="iphone" class="images-new">
+                    <img src="assets/images/iphone-news.jpg" alt="iphone" class="images-new">
                 </div>
             </div>
         </section>
-        <section class="color">
+        <section class="color" id="color">
             <div class="container">
                 <h2 class="color-title">
                     ВЫБЕРИ СВОЙ ЦВЕТ
                 </h2>
                 <ul class="color-list">
                     <li class="color-item">
-                        <img src="images/color-1.jpg" alt="">
+                        <img src="assets/images/color-1.jpg" alt="">
                         <h3>Silver</h3>
                         <p>Серебристый</p>
                     </li>
                     <li class="color-item">
-                        <img src="images/color-2.jpg" alt="">
+                        <img src="assets/images/color-2.jpg" alt="">
                         <h3>Deep purple</h3>
                         <p>Тёмно фиолетовый</p>
                     </li>
                     <li class="color-item">
-                        <img src="images/color-3.jpg" alt="">
+                        <img src="assets/images/color-3.jpg" alt="">
                         <h3>Gold</h3>
                         <p>Золотой</p>
                     </li>
                     <li class="color-item">
-                        <img src="images/color-4.jpg" alt="">
+                        <img src="assets/images/color-4.jpg" alt="">
                         <h3>Space Black</h3>
                         <p>Чёрный</p>
                     </li>
                 </ul>
             </div>
         </section>
-        <section class="contacts">
+        <section class="contacts" id="order">
             <div class="container">
                 <div class="contacts-inner">
                     <form action="#" class="contacts-form">
@@ -112,7 +112,7 @@
                         <p>В ближайшее время наш менеджер свяжется с Вами</p>
                         <button type="submit">ЗАКАЗАТЬ</button>
                     </form>
-                    <img src="images/contact.jpg" alt="iphone" class="contacts-new">
+                    <img src="assets/images/contact.jpg" alt="iphone" class="contacts-new">
                 </div>
             </div>
         </section>
@@ -122,12 +122,12 @@
             <div class="footer-inner">
                 <a href="#" class="footer-link">Политика конфиденциальности</a>
                 <a class="logo">
-                    <img src="images/logo.svg" alt="Logo" class="logo-img">
+                    <img src="assets/images/logo.svg" alt="Logo" class="logo-img">
                 </a>
                 <a href="tel:+78121231212" class="phone">+7 (812) 123-12-12</a>
             </div>
         </div>
     </footer>
-    <script type="module" src="js/main.js"></script>
+    <script type="module" src="assets/js/main.js"></script>
 </body>
 </html>
