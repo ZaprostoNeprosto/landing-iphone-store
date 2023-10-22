@@ -118,7 +118,7 @@ body{
     max-width: 540px;
     margin: 0 0 30px;
     text-align: justify;
-    
+
 }
 
 .new-text p:nth-child(1){
@@ -186,7 +186,7 @@ body{
 }
 
 .contacts-input{
-    padding: 10px 0; 
+    padding: 10px 0;
     border: none;
     border-bottom: 1px solid #fff;
     display: block;
@@ -241,6 +241,12 @@ body{
 
 .menu-btn{
     display: none;
+}
+
+@media (pointer: coarse) {
+    .menu-btn {
+        -webkit-tap-highlight-color: transparent;
+    }
 }
 
 @media (max-width: 1200px){
@@ -429,7 +435,7 @@ body{
         font-size: 28px;
         line-height: 32px;
     }
-    
+
     .headline-btn{
         font-size: 18px;
         line-height: 22px;
@@ -454,7 +460,7 @@ body{
     .header{
         padding: 25px;
     }
-    
+
     .nav{
         flex-wrap: wrap;
     }
