@@ -22,7 +22,7 @@
 }
 
 .new__text-p:nth-child(1) {
-    margin-top: -30px;
+    margin-top: 0;
 }
 
 .new__text-b {
@@ -38,7 +38,7 @@
 }
 
 .new__image {
-    margin-left: 190px;
+    margin-inline: auto;
 }
 
 
