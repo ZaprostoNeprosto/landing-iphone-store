@@ -1,0 +1,44 @@
+.header {
+    background-color: #0a0a0a;
+    padding: 20px;
+    font-size: 24px;
+    line-height: 29px;
+    color: #717171;
+}
+
+.header__container {
+    margin: 0 auto;
+}
+
+.header__phone {
+    text-align: right;
+}
+
+@media (max-width: 940px){
+    .header__phone {
+        text-align: center;
+    }
+
+    .header__logo-link {
+        position: relative;
+        z-index: 50;
+    }
+}
+
+@media (max-width: 420px) {
+    .header {
+        padding: 10px 15px;
+    }
+
+    .header__logo {
+        width: fit-content;
+    }
+
+    .header__img {
+        max-width: 80%;
+    }
+
+    .header__phone {
+        display: none;
+    }
+}

@@ -1,6 +1,6 @@
 const btn = document.querySelector('.menu-btn');
 const nav = document.querySelector('.nav');
-const logo = document.querySelector('.logo');
+const logo = document.querySelector('.logo-link');
 const menuList = document.getElementById('menu-list');
 
 // Smooth Scroll
@@ -22,13 +22,13 @@ scrollLinks.forEach(function(link) {
 });
 
 btn.addEventListener('click', () => {
-    nav.classList.toggle('menu-open')
-    logo.classList.toggle('logo-open')
+    nav.classList.toggle('menu-list_open')
+    logo.classList.toggle('logo-link_open')
 });
 
 function closeMenu() {
-    nav.classList.remove('menu-open')
-    logo.classList.remove('logo-open')
+    nav.classList.remove('menu-list_open')
+    logo.classList.remove('logo-link_open')
 }
 
 const menuItems = menuList.getElementsByTagName('a');

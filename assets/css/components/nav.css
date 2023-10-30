@@ -1,0 +1,24 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 940px) {
+    .nav__menu-list {
+        position: absolute;
+        inset: 0;
+    }
+
+    .nav__menu-btn {
+        order: 1;
+        position: relative;
+        z-index: 50;
+    }
+}
+
+@media (max-width: 420px) {
+    .nav {
+        flex-wrap: wrap;
+    }
+}

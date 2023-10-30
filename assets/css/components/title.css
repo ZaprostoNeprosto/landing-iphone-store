@@ -1,0 +1,29 @@
+.title {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+}
+
+.title_block {
+    color: #717171;
+    font-size: 32px;
+    line-height: 39px;
+}
+
+.title_headline {
+    color: #490e84;
+    font-size: 64px;
+    line-height: 77px;
+}
+
+@media (max-width: 560px){
+    .title_headline{
+        font-size: 34px;
+        line-height: 42px;
+    }
+
+    .title_block {
+        font-size: 28px;
+        line-height: 32px;
+    }
+}

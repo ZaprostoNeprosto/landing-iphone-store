@@ -1,0 +1,15 @@
+.logo-link {
+   line-height: 0;
+}
+
+.logo-link__img_rotate{
+    transform: rotate(-360deg);
+    transition: .3s ease;
+}
+
+@media (max-width: 940px){
+    .logo-link_open .logo-link__img_rotate {
+        transform: rotate(360deg);
+        transition: .3s ease;
+    }
+}

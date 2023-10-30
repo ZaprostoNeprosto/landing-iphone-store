@@ -1,0 +1,24 @@
+.contacts__container {
+    margin: 0 auto;
+}
+
+.contacts__inner {
+    display: flex;
+    background-color: #574B63;
+    color: #fff;
+}
+
+@media (max-width: 1200px) {
+    .contacts__inner{
+        flex-direction: column;
+        background-color: #574B63;
+    }
+
+    .contacts__form {
+        margin: 15px 0;
+    }
+
+    .contacts__image {
+        width: 100%;
+    }
+}
